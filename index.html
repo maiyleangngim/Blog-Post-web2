@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+
+    <style>
+
+        .blog-post {
+            border: 1px solid rgb(94, 91, 91);
+            border-radius: 8px;
+            padding: 20px;
+            background-color: rgb(231, 240, 247);
+        }
+        .post-title {
+            margin-top: 0;
+            font-size: 1.3em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        section {
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 16px;
+        }
+        .blog-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Blog Post Application</h1>
+    <section>
+        <button id="add-post">Add Blog Post</button>
+
+        <div class="blog-container" id="all-posts-container">
+            
+            <!-- <div id="blog-post">
+                <h2>Welcome to My Blog</h2>
+                <button>Edit Title</button>
+
+                <p>Paragraph</p>
+                <button>Edit Content</button>
+                <button>Delete Post</button>
+            </div> -->
+            
+        </div>
+    </section>
+
+</body>
+</html>
